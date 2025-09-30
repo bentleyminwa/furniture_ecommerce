@@ -302,10 +302,10 @@ export const assets = {
       { name: 'Contact', path: '/contact' },
     ],
     navIcons: [
-      { name: 'user', path: '/account', icon: <UserRound /> },
       { name: 'search', path: '/search', icon: <Search /> },
       { name: 'wishlist', path: '/wishlist', icon: <Heart /> },
       { name: 'cart', path: '/cart', icon: <ShoppingCart /> },
+      { name: 'user', path: '/account', icon: <UserRound /> },
     ],
   },
   footer: {

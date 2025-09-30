@@ -1,3 +1,4 @@
+import Navbar from '@/components/shared/navbar';
 import type { Metadata } from 'next';
 import { Quicksand } from 'next/font/google';
 import './globals.css';
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${quicksand.className} antialiased`}>{children}</body>
+      <body className={`${quicksand.className} antialiased`}>
+        <Navbar />
+        <main className='min-h-[50vh]'>{children}</main>
+      </body>
     </html>
   );
 }
