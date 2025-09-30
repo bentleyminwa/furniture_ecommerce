@@ -1,3 +1,4 @@
+import Footer from '@/components/shared/footer';
 import Navbar from '@/components/shared/navbar';
 import type { Metadata } from 'next';
 import { Quicksand } from 'next/font/google';
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${quicksand.className} antialiased`}>
         <Navbar />
         <main className='min-h-[50vh]'>{children}</main>
+        <Footer />
       </body>
     </html>
   );

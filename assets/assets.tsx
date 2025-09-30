@@ -312,12 +312,8 @@ export const assets = {
     logo,
     description: 'Furniro - Your one-stop shop for modern furniture.',
     links: [
-      { name: 'Home', path: '/' },
-      { name: 'Shop', path: '/shop' },
-      { name: 'About', path: '/about' },
-      { name: 'Contact', path: '/contact' },
       { name: 'Orders', path: '/orders' },
-      { name: 'Wishlist', path: '/wishlist' },
+      { name: 'Checkout', path: '/checkout' },
       { name: 'Account', path: '/account' },
     ],
     helpLinks: [

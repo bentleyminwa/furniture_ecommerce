@@ -6,7 +6,7 @@ export default function Navbar() {
   const { navbar } = assets;
 
   return (
-    <nav className='border border-red-500 grid grid-cols-3 w-full h-[100px] items-center px-10 bg-white'>
+    <nav className='grid grid-cols-3 w-full h-[100px] items-center px-10 bg-white'>
       <Link href='/' className='flex gap-2 items-end'>
         <Image src={navbar.logo} alt='logo' />
         <h2 className='text-3xl font-bold'>Furniro</h2>
