@@ -1,4 +1,7 @@
+// LUCIDE ICONS
 import { Heart, Search, ShoppingCart, UserRound } from 'lucide-react';
+
+// PRODUCT IMAGES
 import cozy_bedroom from './images/cozy_bedroom.png';
 import cozy_living_room from './images/cozy_living_room.png';
 import living_room from './images/living_room.png';
@@ -9,6 +12,8 @@ import simple_coffee_table from './images/simple_coffee_table.png';
 import sleek_modern_chair from './images/sleek_modern_chair.png';
 import white_coffee_table from './images/white_coffee_table.png';
 
+// OTHER IMAGES
+import heroImage from './images/hero-image.jpg';
 import logo from './images/logo.svg';
 
 export const assets = {
@@ -322,5 +327,13 @@ export const assets = {
       { name: 'Privacy Policy', path: '/help/privacy-policy' },
       { name: 'Terms & Conditions', path: '/help/terms-conditions' },
     ],
+  },
+  hero: {
+    title: 'Discover Your Perfect Furniture',
+    content:
+      'Modern designs for every room in your home. You will dicover a wide range of furniture that combines style and functionality.',
+    ctaText: 'Shop Now',
+    ctaLink: '/shop',
+    image: heroImage,
   },
 };
