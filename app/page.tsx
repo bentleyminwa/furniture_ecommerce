@@ -1,7 +1,19 @@
+import {
+  Categories,
+  Gallery,
+  Hero,
+  ProductsOverview,
+  Showroom,
+} from '@/components/pages/home';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Furniro Homepage</h1>
-    </main>
+    <>
+      <Hero />
+      <Categories />
+      <ProductsOverview />
+      <Showroom />
+      <Gallery />
+    </>
   );
 }
