@@ -1,5 +1,12 @@
 // LUCIDE ICONS
-import { Heart, Search, ShoppingCart, UserRound } from 'lucide-react';
+import {
+  ArrowRightLeft,
+  Eye,
+  Heart,
+  Search,
+  ShoppingCart,
+  UserRound,
+} from 'lucide-react';
 
 // PRODUCT IMAGES
 import cozy_bedroom from './images/cozy_bedroom.png';
@@ -15,6 +22,8 @@ import white_coffee_table from './images/white_coffee_table.png';
 // OTHER IMAGES
 import heroImage from './images/hero-image.jpg';
 import logo from './images/logo.svg';
+
+// ASSET TYPES
 
 export const assets = {
   categories: [
@@ -336,4 +345,26 @@ export const assets = {
     ctaLink: '/shop',
     image: heroImage,
   },
+  productActions: [
+    {
+      name: 'Add to Cart',
+      icon: <ShoppingCart />,
+      action: 'add_to_cart',
+    },
+    {
+      name: 'Add to Wishlist',
+      icon: <Heart />,
+      action: 'add_to_wishlist',
+    },
+    {
+      name: 'View Details',
+      icon: <Eye />,
+      action: 'view_details',
+    },
+    {
+      name: 'Compare',
+      icon: <ArrowRightLeft />,
+      action: 'compare',
+    },
+  ],
 };
