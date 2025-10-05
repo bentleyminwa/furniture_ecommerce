@@ -307,6 +307,26 @@ export const assets = {
       created_at: '2025-09-29T13:40:00Z',
     },
   ],
+  showroom: [
+    {
+      id: 'SHR-001',
+      image: cozy_bedroom,
+      title: 'Inner Peace',
+      subtitle: 'Bedroom',
+    },
+    {
+      id: 'SHR-002',
+      image: living_room,
+      title: 'Bright Dining',
+      subtitle: 'Dining Room',
+    },
+    {
+      id: 'SHR-003',
+      image: cozy_living_room,
+      title: 'Cozy Corner',
+      subtitle: 'Living Room',
+    },
+  ],
   navbar: {
     logo,
     links: [
